@@ -5,7 +5,7 @@ This is a script to install a lamp server on your Linux distribution.
 In order to use it, dowload the file `lamp-installer.sh`. Then, change its permissions and execute it. These steps can be achieve through the following commands:
 ```
 $ cd /path/to/lamp-installer.sh
-$ cd chmod +x lamp-installer.sh
+$ chmod +x lamp-installer.sh
 $ ./lamp-installer.sh
 ```
 After running it, you'll be asked by a sudo password. Type it and the installation will begin.
@@ -17,7 +17,7 @@ After some moments, the installation will be finished. In order to verify if you
 ```
 $ sudo /etc/init.d/apache2 restart
 ```
-Then, visit your (localhost)[http://localhost] page and you should se a Apache page. It means your server is running.
+Then, visit your [localhost](http://localhost) page and you should se a Apache page. It means your server is running.
 
 Finally, verify if the PHP was installed successfully typing:
 ```
