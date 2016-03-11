@@ -17,7 +17,7 @@ After some moments, the installation will be finished. In order to verify if you
 ```
 $ sudo /etc/init.d/apache2 restart
 ```
-Then, visit your [localhost](http://localhost) page and you should se a Apache page. It means your server is running.
+Then, visit your [localhost](http://localhost) page and you should see a Apache page. It means your server is running.
 
 Finally, verify if the PHP was installed successfully typing:
 ```
